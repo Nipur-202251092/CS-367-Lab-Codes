@@ -2,6 +2,8 @@ import numpy as np
 import matplotlib.pyplot as plt
 import random
 
+
+
 def load_puzzle(filename):
     matrix = []
     with open(filename, 'r') as f:

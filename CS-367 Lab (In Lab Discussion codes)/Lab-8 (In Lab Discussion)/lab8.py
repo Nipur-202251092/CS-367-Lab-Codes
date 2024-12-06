@@ -1,5 +1,7 @@
 import numpy as np
 
+
+
 # Define constants for the environment size and terminal states
 ROWS, COLS = 4, 3
 TERMINAL_POSITIVE = (0, 2)

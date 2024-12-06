@@ -1,5 +1,7 @@
 import numpy as np
 
+
+
 # Define the energy function for the Eight-Rooks problem
 def energy_function(board):
     """Calculate the energy of the current board configuration."""

@@ -1,5 +1,7 @@
 import numpy as np
 
+
+
 class HopfieldNetwork:
     def __init__(self, n_neurons):
         self.n_neurons = n_neurons

@@ -3,6 +3,8 @@ import nltk
 import string
 import heapq
 
+
+
 def preprocess_text(text):
     sentences = nltk.sent_tokenize(text)
     sentences = [s.lower().translate(str.maketrans('', '', string.punctuation)) for s in sentences]
